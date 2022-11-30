@@ -16,6 +16,9 @@
 		928123CA29379BF8004846F4 /* BoardGame.swift in Sources */ = {isa = PBXBuildFile; fileRef = 928123C929379BF8004846F4 /* BoardGame.swift */; };
 		928123CC29379E87004846F4 /* TopGameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 928123CB29379E87004846F4 /* TopGameView.swift */; };
 		928123CE2937A177004846F4 /* SearchGameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 928123CD2937A177004846F4 /* SearchGameView.swift */; };
+		928123D02937A298004846F4 /* TopGameListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 928123CF2937A298004846F4 /* TopGameListView.swift */; };
+		928123D22937A2D9004846F4 /* BoardGameDetailsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 928123D12937A2D9004846F4 /* BoardGameDetailsView.swift */; };
+		928123D42937A32A004846F4 /* BoardGameCellView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 928123D32937A329004846F4 /* BoardGameCellView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +32,9 @@
 		928123C929379BF8004846F4 /* BoardGame.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BoardGame.swift; sourceTree = "<group>"; };
 		928123CB29379E87004846F4 /* TopGameView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopGameView.swift; sourceTree = "<group>"; };
 		928123CD2937A177004846F4 /* SearchGameView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchGameView.swift; sourceTree = "<group>"; };
+		928123CF2937A298004846F4 /* TopGameListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopGameListView.swift; sourceTree = "<group>"; };
+		928123D12937A2D9004846F4 /* BoardGameDetailsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BoardGameDetailsView.swift; sourceTree = "<group>"; };
+		928123D32937A329004846F4 /* BoardGameCellView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BoardGameCellView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -110,6 +116,9 @@
 				928123C329379B1B004846F4 /* DreamBoardGamesView.swift */,
 				928123CB29379E87004846F4 /* TopGameView.swift */,
 				928123CD2937A177004846F4 /* SearchGameView.swift */,
+				928123CF2937A298004846F4 /* TopGameListView.swift */,
+				928123D12937A2D9004846F4 /* BoardGameDetailsView.swift */,
+				928123D32937A329004846F4 /* BoardGameCellView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -185,9 +194,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				928123C829379BF1004846F4 /* BoardGameFetcher.swift in Sources */,
+				928123D42937A32A004846F4 /* BoardGameCellView.swift in Sources */,
 				928123C629379BC9004846F4 /* DreamBoardGamesViewModel.swift in Sources */,
 				928123CC29379E87004846F4 /* TopGameView.swift in Sources */,
 				928123CA29379BF8004846F4 /* BoardGame.swift in Sources */,
+				928123D22937A2D9004846F4 /* BoardGameDetailsView.swift in Sources */,
+				928123D02937A298004846F4 /* TopGameListView.swift in Sources */,
 				928123C429379B1B004846F4 /* DreamBoardGamesView.swift in Sources */,
 				928123B129379A94004846F4 /* DreamBoardGamesApp.swift in Sources */,
 				928123CE2937A177004846F4 /* SearchGameView.swift in Sources */,

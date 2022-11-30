@@ -13,7 +13,7 @@ struct SearchGameView: View {
     var body: some View {
         NavigationView {
             Text("Search Game View")
-            .navigationTitle("Search Board Game")
+            .navigationTitle("Search a Board Game")
         }
     }
 }

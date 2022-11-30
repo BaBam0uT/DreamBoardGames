@@ -13,9 +13,9 @@ struct TopGameView: View {
     var body: some View {
         NavigationView {
             List {
-                ForEach(viewModel.boardGames) { boardGame in
-                    Text(boardGame.name)
-                }
+                TopGameListView(
+                    boardGames: viewModel.boardGames
+                )
                 .navigationTitle("Top Games")
             }
         }

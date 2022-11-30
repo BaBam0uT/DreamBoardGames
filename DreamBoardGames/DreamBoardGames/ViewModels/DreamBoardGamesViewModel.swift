@@ -14,8 +14,6 @@ class DreamBoardGamesViewModel: ObservableObject {
     
     func getBoardGames() async throws {
         let boardGameResponse = try await boardFetcher.getBoardGames()
-        print("boardGameResponse : ")
-        print(boardGameResponse)
         boardGames = boardGameResponse.games
     }
 }
