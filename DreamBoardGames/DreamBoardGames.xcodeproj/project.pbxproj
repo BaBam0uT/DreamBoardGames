@@ -11,6 +11,10 @@
 		928123B529379A95004846F4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 928123B429379A95004846F4 /* Assets.xcassets */; };
 		928123B829379A95004846F4 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 928123B729379A95004846F4 /* Preview Assets.xcassets */; };
 		928123C429379B1B004846F4 /* DreamBoardGamesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 928123C329379B1B004846F4 /* DreamBoardGamesView.swift */; };
+		928123C629379BC9004846F4 /* DreamBoardGamesViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 928123C529379BC9004846F4 /* DreamBoardGamesViewModel.swift */; };
+		928123C829379BF1004846F4 /* BoardGameFetcher.swift in Sources */ = {isa = PBXBuildFile; fileRef = 928123C729379BF1004846F4 /* BoardGameFetcher.swift */; };
+		928123CA29379BF8004846F4 /* BoardGame.swift in Sources */ = {isa = PBXBuildFile; fileRef = 928123C929379BF8004846F4 /* BoardGame.swift */; };
+		928123CC29379E87004846F4 /* TopGameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 928123CB29379E87004846F4 /* TopGameView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +23,10 @@
 		928123B429379A95004846F4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		928123B729379A95004846F4 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		928123C329379B1B004846F4 /* DreamBoardGamesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DreamBoardGamesView.swift; sourceTree = "<group>"; };
+		928123C529379BC9004846F4 /* DreamBoardGamesViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DreamBoardGamesViewModel.swift; sourceTree = "<group>"; };
+		928123C729379BF1004846F4 /* BoardGameFetcher.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BoardGameFetcher.swift; sourceTree = "<group>"; };
+		928123C929379BF8004846F4 /* BoardGame.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BoardGame.swift; sourceTree = "<group>"; };
+		928123CB29379E87004846F4 /* TopGameView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopGameView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +64,7 @@
 				928123C029379AE4004846F4 /* Models */,
 				928123BF29379ADD004846F4 /* Resources */,
 				928123B029379A94004846F4 /* DreamBoardGamesApp.swift */,
+				928123C729379BF1004846F4 /* BoardGameFetcher.swift */,
 			);
 			path = DreamBoardGames;
 			sourceTree = "<group>";
@@ -80,6 +89,7 @@
 		928123C029379AE4004846F4 /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				928123C929379BF8004846F4 /* BoardGame.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -87,6 +97,7 @@
 		928123C129379AE9004846F4 /* ViewModels */ = {
 			isa = PBXGroup;
 			children = (
+				928123C529379BC9004846F4 /* DreamBoardGamesViewModel.swift */,
 			);
 			path = ViewModels;
 			sourceTree = "<group>";
@@ -95,6 +106,7 @@
 			isa = PBXGroup;
 			children = (
 				928123C329379B1B004846F4 /* DreamBoardGamesView.swift */,
+				928123CB29379E87004846F4 /* TopGameView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -169,6 +181,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				928123C829379BF1004846F4 /* BoardGameFetcher.swift in Sources */,
+				928123C629379BC9004846F4 /* DreamBoardGamesViewModel.swift in Sources */,
+				928123CC29379E87004846F4 /* TopGameView.swift in Sources */,
+				928123CA29379BF8004846F4 /* BoardGame.swift in Sources */,
 				928123C429379B1B004846F4 /* DreamBoardGamesView.swift in Sources */,
 				928123B129379A94004846F4 /* DreamBoardGamesApp.swift in Sources */,
 			);

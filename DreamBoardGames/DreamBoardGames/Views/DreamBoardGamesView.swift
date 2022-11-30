@@ -8,9 +8,14 @@
 import SwiftUI
 
 struct DreamBoardGamesView: View {
+    @StateObject var viewModel = DreamBoardGamesViewModel()
     var body: some View {
-        Text("Hello, world!")
-            .padding()
+        TabView {
+            TopGameView(viewModel: viewModel)
+                .tabItem {
+                    Label("Top Games", systemImage: "play.rectangle")
+                }
+        }
     }
 }
 
