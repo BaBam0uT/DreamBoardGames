@@ -19,6 +19,7 @@
 		928123D02937A298004846F4 /* TopGameListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 928123CF2937A298004846F4 /* TopGameListView.swift */; };
 		928123D22937A2D9004846F4 /* BoardGameDetailsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 928123D12937A2D9004846F4 /* BoardGameDetailsView.swift */; };
 		928123D42937A32A004846F4 /* BoardGameCellView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 928123D32937A329004846F4 /* BoardGameCellView.swift */; };
+		928123D62937A8C5004846F4 /* BoardGameImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 928123D52937A8C5004846F4 /* BoardGameImageView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -35,6 +36,7 @@
 		928123CF2937A298004846F4 /* TopGameListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopGameListView.swift; sourceTree = "<group>"; };
 		928123D12937A2D9004846F4 /* BoardGameDetailsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BoardGameDetailsView.swift; sourceTree = "<group>"; };
 		928123D32937A329004846F4 /* BoardGameCellView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BoardGameCellView.swift; sourceTree = "<group>"; };
+		928123D52937A8C5004846F4 /* BoardGameImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BoardGameImageView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -119,6 +121,7 @@
 				928123CF2937A298004846F4 /* TopGameListView.swift */,
 				928123D12937A2D9004846F4 /* BoardGameDetailsView.swift */,
 				928123D32937A329004846F4 /* BoardGameCellView.swift */,
+				928123D52937A8C5004846F4 /* BoardGameImageView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -194,6 +197,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				928123C829379BF1004846F4 /* BoardGameFetcher.swift in Sources */,
+				928123D62937A8C5004846F4 /* BoardGameImageView.swift in Sources */,
 				928123D42937A32A004846F4 /* BoardGameCellView.swift in Sources */,
 				928123C629379BC9004846F4 /* DreamBoardGamesViewModel.swift in Sources */,
 				928123CC29379E87004846F4 /* TopGameView.swift in Sources */,

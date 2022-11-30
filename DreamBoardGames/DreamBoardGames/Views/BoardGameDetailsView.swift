@@ -10,6 +10,17 @@ import SwiftUI
 struct BoardGameDetailsView: View {
     var boardGame: BoardGame
     var body: some View {
-        Text(boardGame.name)
+        VStack(alignment: .leading) {
+            Text(boardGame.name)
+                .font(.largeTitle)
+                .bold()
+            if let url = boardGame.imageURL {
+                BoardGameImageView(boardGameURL: url)
+            }
+            Text("Description :")
+                .font(.title)
+            Text(boardGame.description)
+        }
+        .padding()
     }
 }

@@ -14,6 +14,7 @@ class BoardGameFetcher {
         let request = URLRequest(url: boardGamesURL)
         let (data, _) = try await URLSession.shared.data(for: request)
         let decoder = JSONDecoder()
+        decoder.keyDecodingStrategy = .convertFromSnakeCase
         let boardGamesResponse = try decoder.decode(BoardGamesResponse.self, from: data)
         return boardGamesResponse
     }

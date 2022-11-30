@@ -10,6 +10,13 @@ import SwiftUI
 struct BoardGameCellView: View {
     let boardGame: BoardGame
     var body: some View {
-        Text(boardGame.name)
+        HStack {
+            if let url = boardGame.imageURL {
+                BoardGameImageView(boardGameURL: url)
+                    .frame(width:100, height: 100)
+            }
+            Text(boardGame.name)
+                .font(.title2)
+        }
     }
 }
