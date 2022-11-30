@@ -17,6 +17,13 @@ struct TopGameView: View {
                     boardGames: viewModel.boardGames
                 )
                 .navigationTitle("Top Games")
+                ProgressView()
+                    .task {
+                        do {
+                            try await viewModel.getBoardGames()
+                        } catch {
+                        }
+                    }
             }
         }
         .task {

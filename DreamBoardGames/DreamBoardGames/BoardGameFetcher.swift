@@ -8,9 +8,10 @@
 import Foundation
 
 class BoardGameFetcher {
-    let boardGamesURL = URL(string: "https://api.boardgameatlas.com/api/search?order_by=rank&client_id=FmN8vBUlLt")!
+    let boardGamesPath = "https://api.boardgameatlas.com/api/search?order_by=rank&client_id=FmN8vBUlLt"
     
-    func getBoardGames() async throws -> BoardGamesResponse {
+    func getBoardGames(currentSkip: Int) async throws -> BoardGamesResponse {
+        let boardGamesURL = URL(string: boardGamesPath + "&skip=\(currentSkip)")!
         let request = URLRequest(url: boardGamesURL)
         let (data, _) = try await URLSession.shared.data(for: request)
         let decoder = JSONDecoder()
