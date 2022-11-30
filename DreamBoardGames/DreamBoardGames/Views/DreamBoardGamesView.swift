@@ -13,7 +13,7 @@ struct DreamBoardGamesView: View {
         TabView {
             TopGameView(viewModel: viewModel)
                 .tabItem {
-                    Label("Top Games", systemImage: "play.rectangle")
+                    Label("Top Games", systemImage: "dice")
                 }
         }
     }
