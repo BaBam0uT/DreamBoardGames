@@ -16,6 +16,6 @@ class DreamBoardGamesViewModel: ObservableObject {
     func getBoardGames() async throws {
         let boardGameResponse = try await boardFetcher.getBoardGames(currentSkip: currentSkip)
         boardGames.append(contentsOf: boardGameResponse.games)
-        currentSkip += 10
+        currentSkip += 25
     }
 }
