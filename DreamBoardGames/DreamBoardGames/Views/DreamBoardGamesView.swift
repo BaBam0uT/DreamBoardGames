@@ -15,6 +15,10 @@ struct DreamBoardGamesView: View {
                 .tabItem {
                     Label("Top Games", systemImage: "dice")
                 }
+            SearchGameView(viewModel: viewModel)
+                .tabItem {
+                    Label("Search", systemImage: "magnifyingglass")
+                }
         }
     }
 }

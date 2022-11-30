@@ -16,7 +16,7 @@ struct TopGameView: View {
                 ForEach(viewModel.boardGames) { boardGame in
                     Text(boardGame.name)
                 }
-                .navigationTitle("Board Games")
+                .navigationTitle("Top Games")
             }
         }
         .task {
