@@ -19,4 +19,14 @@ class BoardGameFetcher {
         let boardGamesResponse = try decoder.decode(BoardGamesResponse.self, from: data)
         return boardGamesResponse
     }
+    
+    func getBoardGamesSearched(searchResults: String) async throws -> BoardGamesResponse {
+        let boardGamesURL = URL(string: boardGamesPath + "&name=\(searchResults)")!
+        let request = URLRequest(url: boardGamesURL)
+        let (data, _) = try await URLSession.shared.data(for: request)
+        let decoder = JSONDecoder()
+        decoder.keyDecodingStrategy = .convertFromSnakeCase
+        let boardGamesResponse = try decoder.decode(BoardGamesResponse.self, from: data)
+        return boardGamesResponse
+    }
 }

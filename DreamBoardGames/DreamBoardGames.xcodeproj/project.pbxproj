@@ -20,6 +20,7 @@
 		928123D22937A2D9004846F4 /* BoardGameDetailsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 928123D12937A2D9004846F4 /* BoardGameDetailsView.swift */; };
 		928123D42937A32A004846F4 /* BoardGameCellView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 928123D32937A329004846F4 /* BoardGameCellView.swift */; };
 		928123D62937A8C5004846F4 /* BoardGameImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 928123D52937A8C5004846F4 /* BoardGameImageView.swift */; };
+		928123DA2937B599004846F4 /* SearchGameListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 928123D92937B599004846F4 /* SearchGameListView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -37,6 +38,7 @@
 		928123D12937A2D9004846F4 /* BoardGameDetailsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BoardGameDetailsView.swift; sourceTree = "<group>"; };
 		928123D32937A329004846F4 /* BoardGameCellView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BoardGameCellView.swift; sourceTree = "<group>"; };
 		928123D52937A8C5004846F4 /* BoardGameImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BoardGameImageView.swift; sourceTree = "<group>"; };
+		928123D92937B599004846F4 /* SearchGameListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchGameListView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -122,6 +124,7 @@
 				928123D12937A2D9004846F4 /* BoardGameDetailsView.swift */,
 				928123D32937A329004846F4 /* BoardGameCellView.swift */,
 				928123D52937A8C5004846F4 /* BoardGameImageView.swift */,
+				928123D92937B599004846F4 /* SearchGameListView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -207,6 +210,7 @@
 				928123C429379B1B004846F4 /* DreamBoardGamesView.swift in Sources */,
 				928123B129379A94004846F4 /* DreamBoardGamesApp.swift in Sources */,
 				928123CE2937A177004846F4 /* SearchGameView.swift in Sources */,
+				928123DA2937B599004846F4 /* SearchGameListView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
